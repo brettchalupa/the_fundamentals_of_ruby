@@ -9,8 +9,8 @@ The code samples and examples are meant to be used with [Hackety Hack](http://ha
 ## Presentation
 
 1. Introduction to Ruby (01_introduction_to_ruby.rd)
-2. Introduction to Hackety Hack (02_introductin_to_hackety_hack.rb)
-3. Basic Data Types
+2. Introduction to Hackety Hack (02_introduction_to_hackety_hack.rd)
+3. Basic Data Types (03_basic_data_types.rd)
 
 ## Thank You
 
