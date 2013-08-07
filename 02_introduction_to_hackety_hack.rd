@@ -9,7 +9,7 @@
 
 = What is Hackety Hack?
 
-Hackety Hack is a programming starter kit.
+Hackety Hack is a programming starter kit. It uses Ruby and a graphical toolkit called Shoes.
 
   # image
   # src = 02_introduction_to_hackety_hack/hackety_ask.png
@@ -59,3 +59,9 @@ You are now officially a programmer!
 = Explore Hackety
 
 Take some time and explore Hackety Hack. See what you find!
+
+= Fancy Pants Features
+
+* Console to see errors ("Command + /" or Help > Console)
+* Cheat Sheet
+* Help (for Shoes)

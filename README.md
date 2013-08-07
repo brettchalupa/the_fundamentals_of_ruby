@@ -6,11 +6,31 @@ The presentations are powered by [Rabbit](http://rabbit-shocker.org/en/).
 
 The code samples and examples are meant to be used with [Hackety Hack](http://hackety.com/).
 
-## Presentation
+## Topics Covered
+
+* Data types like Strings, Numbers and Floats
+* Math with numbers
+* String manipulation
+* Variables
+* User input3
+* Boolean
+* Loops
+
+## Ideas of things to try and use
+
+* Ruby from the command line
+* IRB
+* Shoes
+* Camping
+* Sinatra
+
+## Presentations
 
 1. Introduction to Ruby (01_introduction_to_ruby.rd)
 2. Introduction to Hackety Hack (02_introduction_to_hackety_hack.rd)
 3. Basic Data Types (03_basic_data_types.rd)
+
+Extra Credit: _why the lucky stiff (ex_why_the_lucky_stiff.rd)
 
 ## Thank You
 
