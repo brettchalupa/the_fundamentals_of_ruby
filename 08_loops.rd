@@ -73,3 +73,36 @@ If you want to exit a loop, use the word break!
       alert "Nope, good try!"
     end
   end
+
+= Number Guessing Game
+
+Let's expand upon the number guessing game by letting the player know if their guess is high or low.
+
+Give it a shot!
+
+= Number Guessing Game
+
+  # coderay ruby
+
+  random_number = rand(6)
+
+  loop do
+    guess = ask "Guess a number between 0 and 5"
+    guess = guess.to_i
+
+    if guess == random_number
+      alert "You got it!"
+      alert "Good job!"
+      break
+    elsif guess > random_number
+      alert "Higher!"
+    elsif guess < random_number
+      alert "Lower!"
+    end
+  end
+
+= Number Guessing Game
+
+Expand upon the guessing game to have a neighbor enter in the number they are thinking instead of using rand.
+
+What other games could you make while in a loop?

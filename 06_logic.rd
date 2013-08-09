@@ -83,3 +83,22 @@ In how many years will they be able to take the test?
 = Conditions
 
 Use if and else with comparisons to determine what should happen!
+
+= But Wait, There's More
+
+else if, what if there is another condition to check for?
+
+  # coderay ruby
+
+  if age > 14 and age < 17
+    alert "You can take you driver permit test!"
+  elsif age >= 17
+    alert "You are old enough to get your license!"
+  else
+    alert "You are too young!"
+    alert "Wait " + (15 - age.to_i).to_s + " years!"
+  end
+
+= Else If
+
+Just like with the initial if, you can keep going with elsifs and then else is the final one with no conditions!

@@ -58,4 +58,10 @@ Extra Credit:
 2. Copy the text from Hackety Hack
 3. Paste into Text Wrangler
 4. File > Save > No Name (Your Flash Drive!)
-5. Name the file allowance_calculator.rb
+5. Name the file file_name.rb
+
+## Todo
+
+* Add code samples in the directory of each lesson, hooray!
+* Export presentations as PDFs and upload them to Speaker Deck
+* Create text versions (like a book) of the presentations

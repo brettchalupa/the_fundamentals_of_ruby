@@ -173,5 +173,5 @@ Let's convert our long mad lib to Shoes.
 = Mad Libs with Shoes
 
 (1) Keep the ask variables in the same place.
-(2) Add in some variables for typing in the image url.
-(3) Change the alerts to be paras.
+(2) Change the alerts to be paras.
+(3) Wrap the paras in Shoes.app do block
