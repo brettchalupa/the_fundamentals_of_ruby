@@ -37,12 +37,15 @@ The code samples and examples are meant to be used with [Hackety Hack](http://ha
 9. Drawing with Turtle (09_drawing_with_turtle.rd)
 10. Arrays (10_arrays.rd)
 11. Methods (11_methods.rd)
+12. Hashes
+13. Singing with Sinatra
 
 -----
 
 Extra Credit:
 
 * _why the lucky stiff (ex_why_the_lucky_stiff.rd)
+* IRB
 
 ## Thank You
 
@@ -65,3 +68,4 @@ Extra Credit:
 * Add code samples in the directory of each lesson, hooray!
 * Export presentations as PDFs and upload them to Speaker Deck
 * Create text versions (like a book) of the presentations
+* Create IRB ex lesson
