@@ -118,7 +118,7 @@ We can move shapes in Shoes. We can make a shooting star!
     background black
     fill yellow
     @star = star(:points => 5, :top => 200)
-    animate do |i|
+    animate do
       @star.left += 10
     end
   end

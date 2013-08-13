@@ -35,8 +35,8 @@ For example:
 
   # coderay ruby
 
-  fruit = ["apple", "banana", "cherry"]
-  alert fruit[1]
+  fruits = ["apple", "banana", "cherry"]
+  alert fruits[1]
 
 Hmm that wasn't the first element!
 
@@ -46,6 +46,18 @@ When computers count, they do not start at 1. Computer start counting at zero.
 
   # coderay ruby
 
-  fruit = ["apple", "banana", "cherry"]
-  alert fruit[0]
-  alert fruit[1]
+  fruits = ["apple", "banana", "cherry"]
+  alert fruits[0]
+  alert fruits[1]
+
+= Looping Through the Elements of an Array
+
+You can loop through each element of the array!
+
+  # coderay ruby
+
+  fruits = ["apple", "banana", "cherry"]
+
+  fruits.each do |fruit|
+    alert fruit
+  end
