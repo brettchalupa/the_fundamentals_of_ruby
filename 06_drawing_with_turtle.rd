@@ -1,9 +1,9 @@
 = Drawing with Turtle
 
 : subtitle
-   A fast turtle!
+  A fast turtle!
 : author
-   Brett Chalupa
+  Brett Chalupa
 : allotted-time
   45 m
 

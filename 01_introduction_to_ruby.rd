@@ -1,9 +1,9 @@
 = Introduction to Ruby
 
 : subtitle
-   Getting started with programming in Ruby
+  Getting started with programming in Ruby
 : author
-   Brett Chalupa
+  Brett Chalupa
 : allotted-time
   30 m
 

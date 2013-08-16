@@ -1,9 +1,9 @@
 = Basic Data Types
 
 : subtitle
-   Getting started with Numbers and Strings
+  Getting started with Numbers and Strings
 : author
-   Brett Chalupa
+  Brett Chalupa
 : allotted-time
   45 m
 

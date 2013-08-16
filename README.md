@@ -12,9 +12,10 @@ The code samples and examples are meant to be used with [Hackety Hack](http://ha
 * Math with numbers
 * String manipulation
 * Variables
-* User input3
+* User input
 * Boolean
 * Loops
+* Shoes
 
 ## Ideas of things to try and use
 
@@ -31,21 +32,23 @@ The code samples and examples are meant to be used with [Hackety Hack](http://ha
 3. Basic Data Types (03_basic_data_types.rd)
 4. Variables (04_variables.rd)
 5. User Input Exercises (05_user_input_exercises.rd)
-6. Logic (06_logic.rd)
-7. GUIs with Shoes (07_guis_with_shoes.rd)
+6. Drawing with Turtle (06_drawing_with_turtle.rd)
+7. Logic (07_logic.rd)
 8. Loops (08_loops.rd)
-9. Drawing with Turtle (09_drawing_with_turtle.rd)
-10. Arrays (10_arrays.rd)
-11. Methods (11_methods.rd)
-12. Hashes
-13. Singing with Sinatra
+9. Into the Terminal (09_into_the_terminal.rd)
+10. Drawing with Shoes (10_drawing_with_shoes.rd)
+11. GUIs with Shoes (11_guis_with_shoes.rd)
+12. Arrays (11_arrays.rd)
+13. Methods (12_methods.rd)
+14. Hashes
+15. Singing with Sinatra
 
 -----
 
 Extra Credit:
 
 * _why the lucky stiff (ex_why_the_lucky_stiff.rd)
-* IRB
+
 
 ## Thank You
 

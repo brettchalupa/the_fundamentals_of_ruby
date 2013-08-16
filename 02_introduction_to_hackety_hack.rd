@@ -1,9 +1,9 @@
 = Introduction to Hackety Hack
 
 : subtitle
-   Writing Ruby in Hackety Hack
+  Writing Ruby in Hackety Hack
 : author
-   Brett Chalupa
+  Brett Chalupa
 : allotted-time
   30 m
 

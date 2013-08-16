@@ -1,7 +1,7 @@
 = _why the lucky stiff
 
 : author
-   Brett Chalupa
+  Brett Chalupa
 : allotted-time
   15 m
 

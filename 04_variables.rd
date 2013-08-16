@@ -1,9 +1,9 @@
 = Variables
 
 : subtitle
-   Representations of data!
+  Representations of data!
 : author
-   Brett Chalupa
+  Brett Chalupa
 : allotted-time
   60 m
 

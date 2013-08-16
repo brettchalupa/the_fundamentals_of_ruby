@@ -1,7 +1,7 @@
 = User Input Exercises
 
 : author
-   Brett Chalupa
+  Brett Chalupa
 : allotted-time
   60 m
 
