@@ -38,8 +38,8 @@ The code samples and examples are meant to be used with [Hackety Hack](http://ha
 9. Into the Terminal (09_into_the_terminal.rd)
 10. Drawing with Shoes (10_drawing_with_shoes.rd)
 11. GUIs with Shoes (11_guis_with_shoes.rd)
-12. Arrays (11_arrays.rd)
-13. Methods (12_methods.rd)
+12. Arrays (12_arrays.rd)
+13. Methods (13_methods.rd)
 14. Hashes
 15. Singing with Sinatra
 
