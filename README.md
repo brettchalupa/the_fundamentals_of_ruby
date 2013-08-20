@@ -4,7 +4,9 @@ An introduction to the basic concepts of programming with Ruby. Information, exe
 
 The presentations are powered by [Rabbit](http://rabbit-shocker.org/en/).
 
-The code samples and examples are meant to be used with [Hackety Hack](http://hackety.com/).
+The normal code samples and examples are meant to be used with [Hackety Hack](http://hackety.com/).
+
+The vanila code samples and examples are meant to be used with IRB or Ruby run from the terminal.
 
 ## Topics Covered
 
