@@ -46,7 +46,7 @@ Display the yearly allowance in a descriptive manner.
 
 = Lab: Allowance Calculator
 
-Now let's say you save half of your allowance each week. How much money will you have saved over the course of a year?
+Now let's say you save half of your allowance each week. How much is saved?
 
   # coderay ruby
 
