@@ -123,6 +123,24 @@ If you want to remove an element to an array, use the "delete" method.
   alert fruits.include?("apple")
   alert fruits.include?("pizza")
 
+= How Many Items are in an Array?
+
+If you need to find the number of elements in an array, use the ".size" method.
+
+= How Many Items are in an Array?
+
+  # coderay ruby
+
+  fruits = ["apple", "banana", "cherry"]
+  alert fruits.size
+
+= Getting a Random Element
+
+  # coderay ruby
+
+  fruits = ["apple", "banana", "cherry"]
+  alert fruits.sample
+
 = Family Collection
 
 Create a new program in Hackety Hack, please!
@@ -185,4 +203,81 @@ You could store a player's items in an array.
 
 = How Arrays Are Used
 
-How would you use arrays?
+You could keep track of enemies in an array and build a combat system!
+
+= Enemy Combat
+
+Create a new program in Hackety Hack, please!
+
+= Enemy Combat
+
+Create an array of enemies!
+
+  # coderay ruby
+
+  enemies = ["Goblin", "Witch", "Dragon"]
+
+= Enemy Combat
+
+While there are enemies in the array, loop through the combat.
+
+  # coderay ruby
+
+  enemies = ["Goblin", "Witch", "Dragon"]
+
+  while enemies.size > 0
+  end
+
+= Enemy Combat
+
+Let's get a random enemy in the while loop to fight.
+
+  # coderay ruby
+
+  enemies = ["Goblin", "Witch", "Dragon"]
+
+  while enemies.size > 0
+    attacking_enemy = enemies.sample
+  end
+
+= Enemy Combat
+
+Let's make it attack!
+
+  # coderay ruby
+
+  enemies = ["Goblin", "Witch", "Dragon"]
+
+  while enemies.size > 0
+    attacking_enemy = enemies.sample
+    alert "A " + attacking_enemy + " attacks for " +
+      rand(100).to_s + " damage."
+  end
+
+= Enemy Combat
+
+Let's remove the enemy from the array.
+
+  # coderay ruby
+
+  enemies = ["Goblin", "Witch", "Dragon"]
+
+  while enemies.size > 0
+    attacking_enemy = enemies.sample
+    alert "A " + attacking_enemy + " attacks for " +
+      rand(100).to_s + " damage."
+    alert "You fight back tirelessy."
+    enemies.delete(attacking_enemy)
+    alert "You defeated the " + attacking_enemy + "."
+  end
+
+  alert "Good job! You defeated all of the enemies!"
+
+= Combat System
+
+Create a combat system that does the following:
+
+(1) Add three more enemies.
+(2) Tracks player health enemy health.
+(3) Add a combat loop!
+(4) Handles a game over when the player health is zero.
