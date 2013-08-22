@@ -76,6 +76,18 @@ You can loop through each element of the array!
     alert fruit
   end
 
+= Setting Items of Arrays
+
+It is easy to change the value of an item in an array.
+
+  # coderay ruby
+
+  fruits = ["apple", "banana", "cherry"]
+  fruits[0] = "papaya"
+  fruits[1] = "watermelon"
+  alert fruits[0]
+  alert fruits
+
 = Adding To Arrays
 
 If you want to add an element to an array, use the "push" method.
@@ -102,6 +114,14 @@ If you want to remove an element to an array, use the "delete" method.
 
   fruits.delete("apple")
   alert fruits
+
+= Checking Arrays
+
+  # coderay ruby
+
+  fruits = ["apple", "banana", "cherry"]
+  alert fruits.include?("apple")
+  alert fruits.include?("pizza")
 
 = Family Collection
 
