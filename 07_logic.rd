@@ -15,6 +15,15 @@ The computer needs to be told when to make a decision.
 
 = Logic
 
+Boolean values:
+
+* true
+* false
+
+Just like Strings and Numbers, there are Booleans.
+
+= Logic
+
 Type the following into Hackety Hack:
 
   # coderay ruby

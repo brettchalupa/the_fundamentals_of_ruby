@@ -101,6 +101,36 @@ Turns out we can change the color!
     rect(:left => 300, :top => 30, :width => 100, :height => 50)
   end
 
+= Solar System
+
+We know how to draw circles now, great. What better things to draw with circles than planets?
+
+= Solar System
+
+Create the sun and eight planets in the Solar System using different fill colors, sizes and locations for each planet.
+
+= Solar System
+
+To get you started:
+
+  # coderay ruby
+
+  Shoes.app do
+    para "Let's draw the solar system!"
+    background black
+    stroke white
+
+    # the sun
+    fill goldenrod
+    oval(:left => -300, :top => 50, :radius => 200)
+
+    # mercury
+    fill gray
+    oval(:left => 100, :top => 200, :radius => 10)
+  end
+
+= Animating the Solar System
+
 = Animating in Shoes
 
 We can move shapes in Shoes. We can make a shooting star!

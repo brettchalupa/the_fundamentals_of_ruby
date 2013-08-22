@@ -93,11 +93,12 @@ Give it a shot!
     if guess == random_number
       alert "You got it!"
       alert "Good job!"
+      alert "The number was " + random_number.to_s
       break
-    elsif guess > random_number
-      alert "Higher!"
     elsif guess < random_number
-      alert "Lower!"
+      alert "Guess higher!"
+    elsif guess > random_number
+      alert "Guess lower!"
     end
   end
 
@@ -106,3 +107,17 @@ Give it a shot!
 Expand upon the guessing game to have a neighbor enter in the number they are thinking instead of using rand.
 
 What other games could you make while in a loop?
+
+= Creating a Game Loop
+
+  # coderay ruby
+
+  in_game = true
+
+  while in_game == true
+    end_the_game = ask "End the game?"
+
+    if end_the_game.downcase == "yes"
+      in_game = false
+    end
+  end
