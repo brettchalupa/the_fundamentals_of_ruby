@@ -278,6 +278,6 @@ Let's remove the enemy from the array.
 Create a combat system that does the following:
 
 (1) Add three more enemies.
-(2) Tracks player health enemy health.
+(2) Track player health and enemy health.
 (3) Add a combat loop!
 (4) Handles a game over when the player health is zero.
