@@ -3,7 +3,7 @@ class Enemy
 end
 
 class Player
-  attr_accessor :name, :health, :attack, :defence, :race
+  attr_accessor :name, :health, :attack, :defence, :race, :critical_chance
 end
 
 player = Player.new

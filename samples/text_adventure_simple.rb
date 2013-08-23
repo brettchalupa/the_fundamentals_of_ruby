@@ -10,7 +10,6 @@ player = Player.new
 player.name = ask "Please enter your name"
 player.health = 100
 player.attack = 20 + rand(2)
-player.defence = 20 + rand(2)
 
 goblin = Enemy.new
 goblin.name = "Goblin"
@@ -26,29 +25,43 @@ enemies = [goblin, dragon]
 
 # game loop
 while enemies.size > 0 and player.health > 0
+  loop do
+    player_input = ask "What do you want to do?"
+
+    if player_input == "heal"
+      player.health = player.health + 20
+      alert player.name + " healed 20 HP"
+      break
+    else
+      break
+    end
+  end
+
   attacking_enemy = enemies.sample
+
+  alert "A wild " + attacking_enemy.name + " appears!"
 
   # combat loop
   loop do
     # enemy attacks
     player.health = player.health - attacking_enemy.attack
     alert attacking_enemy.name + " attacks for " +
-          attacking_enemy.attack.to_s
+          attacking_enemy.attack.to_s + " damage."
 
     # player attacks
     attacking_enemy.health = attacking_enemy.health - player.attack
     alert player.name + " attacks the " + attacking_enemy.name + " for " +
           player.attack.to_s + " damage."
-    end
 
     if player.health <= 0
       break
     elsif attacking_enemy.health <= 0
-      alert attacking_enemy + " killed!"
+      alert attacking_enemy.name + " killed!"
       enemies.delete(attacking_enemy)
+      break
     else
-      alert player.name + " health remaining: " + player.health + "\n" +
-          attacking_enemy.name + " health remaining: " + attacking_enemy.health
+      alert player.name + " health remaining: " + player.health.to_s + "\n" +
+          attacking_enemy.name + " health remaining: " + attacking_enemy.health.to_s
     end
   end
 end
