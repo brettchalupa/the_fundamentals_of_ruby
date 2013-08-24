@@ -25,23 +25,11 @@ enemies = [goblin, dragon]
 
 # game loop
 while enemies.size > 0 and player.health > 0
-  loop do
-    player_input = ask "What do you want to do?"
-
-    if player_input == "heal"
-      player.health = player.health + 20
-      alert player.name + " healed 20 HP"
-      break
-    else
-      break
-    end
-  end
-
   attacking_enemy = enemies.sample
 
   alert "A wild " + attacking_enemy.name + " appears!"
 
-  # combat loop
+  # combat loopx
   loop do
     # enemy attacks
     player.health = player.health - attacking_enemy.attack
